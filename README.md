@@ -5,6 +5,8 @@
  To run it in the terminal:
  java WordsInChat.java <chat file name.txt> <name of person, case sensitive> <number of leading characters>
  E.g. java WordsInChat.java my_chat.txt "John Doe" 23
+ E.g. java WordsInChat.java test.txt PersonA 0
+   * For the test file included
  
  This program assumes 2 things
    1. Each message starts with the same number of leading characters, usually for the timestamp (this number is 23 for WhatsApp).
