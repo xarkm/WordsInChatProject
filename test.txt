@@ -1,6 +1,7 @@
 PersonA: hi hello my name is persona
-PersonB: How are you doing today?
+Person B: How are you doing today?
 PersonA: i'm doing well
 PersonA: where are you (are you at home)?
-PersonB: I'm visiting my friends - i've known them for a long time.
+Person B: I'm visiting my friends - i've known them for a long time.
 PersonA: that's good to hear, hope you have a nice time
+PersonA: u aight?
