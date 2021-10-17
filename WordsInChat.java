@@ -9,6 +9,10 @@ import java.util.Scanner;
 
 public class WordsInChat {
     public static void main(String[] args) throws IOException {
+        if (args.length < 3) {
+            System.err.println("Please include arguments for file name (including .txt), name of person to scan words for, and number of leading characters.");
+            return;
+        }
         // string prefix for file name
         String filePrefix = args[0].substring(0, args[0].length() - 4) + "_" + args[1];
         filePrefix = filePrefix.replaceAll(" ", "_");
